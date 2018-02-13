@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Extensions.Configuration", "Hangfire.Extensions.Configuration\Hangfire.Extensions.Configuration.csproj", "{2B11F69A-247E-4A3B-B161-2ADE19C7C00D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B20EED4-45FE-4D03-BF59-7613D3174DDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Extensions.Configuration", "src\Hangfire.Extensions.Configuration\Hangfire.Extensions.Configuration.csproj", "{2B11F69A-247E-4A3B-B161-2ADE19C7C00D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B11F69A-247E-4A3B-B161-2ADE19C7C00D} = {5B20EED4-45FE-4D03-BF59-7613D3174DDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC463B88-4D90-4DE8-BC35-8FB00C2F5428}
