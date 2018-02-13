@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Steven Lietaer</Authors>
+    <Company />
+    <PackageTags>Hangfire AspNetCore configuration extention</PackageTags>
+    <Description>Functionality to read Hangfire configurations from key-value pair based configuration.</Description>
+    <PackageReleaseNotes>https://github.com/Nevets82/Hangfire.Extensions.Configuration
+
+1.0.0
+• Added - IConfiguration extension GetHangfireDashboardOptions
+• Added - IConfiguration extension GetHangfireBackgroundJobServerOptions</PackageReleaseNotes>
+    <PackageLicenseUrl>https://raw.github.com/Nevets82/Hangfire.Extensions.Configuration/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Nevets82/Hangfire.Extensions.Configuration</PackageProjectUrl>
+    <PackageIconUrl>http://nevets82.github.io/static/images/nuget.png</PackageIconUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
